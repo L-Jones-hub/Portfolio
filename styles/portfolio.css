@@ -76,6 +76,15 @@ p {
 .project-desciption {
   padding: 120px 60px;
 }
+.about-section {
+  font-size: 64px;
+  line-height: 80px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
 
 @media (max-width: 900px) {
   h1 {
@@ -93,6 +102,9 @@ p {
 
   .project-desciption {
     padding: 0;
+    text-align: center;
+  }
+  .about-section {
     text-align: center;
   }
 }
